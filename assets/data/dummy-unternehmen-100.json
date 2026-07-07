@@ -1,0 +1,902 @@
+[
+  {
+    "id": 1,
+    "name": "Future Solutions GmbH",
+    "land": "Niederlande",
+    "branche": "Textilproduktion",
+    "mitarbeiter": 4092,
+    "jahresumsatz": 847200000,
+    "co2Emissionen": 273000
+  },
+  {
+    "id": 2,
+    "name": "Urban Retail GmbH",
+    "land": "Dänemark",
+    "branche": "Industrie",
+    "mitarbeiter": 6992,
+    "jahresumsatz": 745800000,
+    "co2Emissionen": 976000
+  },
+  {
+    "id": 3,
+    "name": "River Manufacturing GmbH",
+    "land": "Dänemark",
+    "branche": "Bauwirtschaft",
+    "mitarbeiter": 514,
+    "jahresumsatz": 197500000,
+    "co2Emissionen": 72000
+  },
+  {
+    "id": 4,
+    "name": "Pure Products GmbH",
+    "land": "Spanien",
+    "branche": "Logistik",
+    "mitarbeiter": 9734,
+    "jahresumsatz": 2295800000,
+    "co2Emissionen": 2215000
+  },
+  {
+    "id": 5,
+    "name": "Green Technologies GmbH",
+    "land": "Italien",
+    "branche": "Textilproduktion",
+    "mitarbeiter": 5654,
+    "jahresumsatz": 1332600000,
+    "co2Emissionen": 388000
+  },
+  {
+    "id": 6,
+    "name": "Vital Industries AG",
+    "land": "Italien",
+    "branche": "Industrie",
+    "mitarbeiter": 1664,
+    "jahresumsatz": 462900000,
+    "co2Emissionen": 668000
+  },
+  {
+    "id": 7,
+    "name": "Energy Logistics GmbH",
+    "land": "Deutschland",
+    "branche": "Telekommunikation",
+    "mitarbeiter": 7607,
+    "jahresumsatz": 2823200000,
+    "co2Emissionen": 196000
+  },
+  {
+    "id": 8,
+    "name": "Forest Systems GmbH",
+    "land": "Niederlande",
+    "branche": "Bauwirtschaft",
+    "mitarbeiter": 10379,
+    "jahresumsatz": 4299800000,
+    "co2Emissionen": 2876000
+  },
+  {
+    "id": 9,
+    "name": "Steel Engineering GmbH",
+    "land": "Polen",
+    "branche": "Logistik",
+    "mitarbeiter": 1219,
+    "jahresumsatz": 139000000,
+    "co2Emissionen": 247000
+  },
+  {
+    "id": 10,
+    "name": "Horizon Systems GmbH",
+    "land": "Frankreich",
+    "branche": "Papierherstellung",
+    "mitarbeiter": 1734,
+    "jahresumsatz": 501600000,
+    "co2Emissionen": 324000
+  },
+  {
+    "id": 11,
+    "name": "Steel Technologies GmbH",
+    "land": "Belgien",
+    "branche": "Chemie",
+    "mitarbeiter": 3512,
+    "jahresumsatz": 807700000,
+    "co2Emissionen": 1470000
+  },
+  {
+    "id": 12,
+    "name": "Eco Textiles GmbH",
+    "land": "Schweiz",
+    "branche": "Pharma",
+    "mitarbeiter": 8831,
+    "jahresumsatz": 1928300000,
+    "co2Emissionen": 534000
+  },
+  {
+    "id": 13,
+    "name": "Forest Logistics GmbH",
+    "land": "Norwegen",
+    "branche": "Metallverarbeitung",
+    "mitarbeiter": 11354,
+    "jahresumsatz": 4337300000,
+    "co2Emissionen": 2615000
+  },
+  {
+    "id": 14,
+    "name": "Smart Group AG",
+    "land": "Irland",
+    "branche": "Logistik",
+    "mitarbeiter": 605,
+    "jahresumsatz": 154500000,
+    "co2Emissionen": 96000
+  },
+  {
+    "id": 15,
+    "name": "Eco Holding AG",
+    "land": "Dänemark",
+    "branche": "Metallverarbeitung",
+    "mitarbeiter": 11842,
+    "jahresumsatz": 3019500000,
+    "co2Emissionen": 2700000
+  },
+  {
+    "id": 16,
+    "name": "Food Services GmbH",
+    "land": "Finnland",
+    "branche": "Metallverarbeitung",
+    "mitarbeiter": 10612,
+    "jahresumsatz": 3508000000,
+    "co2Emissionen": 2183000
+  },
+  {
+    "id": 17,
+    "name": "Terra Manufacturing GmbH",
+    "land": "Schweden",
+    "branche": "Textilproduktion",
+    "mitarbeiter": 8910,
+    "jahresumsatz": 2029300000,
+    "co2Emissionen": 1244000
+  },
+  {
+    "id": 18,
+    "name": "Rhein Engineering GmbH",
+    "land": "Belgien",
+    "branche": "Maschinenbau",
+    "mitarbeiter": 3673,
+    "jahresumsatz": 597000000,
+    "co2Emissionen": 538000
+  },
+  {
+    "id": 19,
+    "name": "Blue Group AG",
+    "land": "Österreich",
+    "branche": "Papierherstellung",
+    "mitarbeiter": 2584,
+    "jahresumsatz": 1082600000,
+    "co2Emissionen": 409000
+  },
+  {
+    "id": 20,
+    "name": "Rhein Textiles GmbH",
+    "land": "Italien",
+    "branche": "Industrie",
+    "mitarbeiter": 6332,
+    "jahresumsatz": 2548100000,
+    "co2Emissionen": 2842000
+  },
+  {
+    "id": 21,
+    "name": "Tech Logistics GmbH",
+    "land": "Irland",
+    "branche": "Bauwirtschaft",
+    "mitarbeiter": 268,
+    "jahresumsatz": 40200000,
+    "co2Emissionen": 63000
+  },
+  {
+    "id": 22,
+    "name": "Pure Logistics GmbH",
+    "land": "Norwegen",
+    "branche": "Telekommunikation",
+    "mitarbeiter": 5653,
+    "jahresumsatz": 839400000,
+    "co2Emissionen": 205000
+  },
+  {
+    "id": 23,
+    "name": "Prime Networks AG",
+    "land": "Polen",
+    "branche": "Erneuerbare Energien",
+    "mitarbeiter": 11871,
+    "jahresumsatz": 2707700000,
+    "co2Emissionen": 1281000
+  },
+  {
+    "id": 24,
+    "name": "Vector Pharma AG",
+    "land": "Österreich",
+    "branche": "Metallverarbeitung",
+    "mitarbeiter": 10324,
+    "jahresumsatz": 2544600000,
+    "co2Emissionen": 4432000
+  },
+  {
+    "id": 25,
+    "name": "Logi Textiles GmbH",
+    "land": "Schweiz",
+    "branche": "Logistik",
+    "mitarbeiter": 6206,
+    "jahresumsatz": 1084200000,
+    "co2Emissionen": 1128000
+  },
+  {
+    "id": 26,
+    "name": "Tech Solutions GmbH",
+    "land": "Belgien",
+    "branche": "Automobilzulieferung",
+    "mitarbeiter": 8085,
+    "jahresumsatz": 810200000,
+    "co2Emissionen": 1088000
+  },
+  {
+    "id": 27,
+    "name": "Steel Energy AG",
+    "land": "Deutschland",
+    "branche": "Logistik",
+    "mitarbeiter": 4026,
+    "jahresumsatz": 1559900000,
+    "co2Emissionen": 1010000
+  },
+  {
+    "id": 28,
+    "name": "Blue Chemicals GmbH",
+    "land": "Österreich",
+    "branche": "Papierherstellung",
+    "mitarbeiter": 8807,
+    "jahresumsatz": 1373300000,
+    "co2Emissionen": 1328000
+  },
+  {
+    "id": 29,
+    "name": "Medi Retail GmbH",
+    "land": "Niederlande",
+    "branche": "Lebensmittelproduktion",
+    "mitarbeiter": 8725,
+    "jahresumsatz": 3560100000,
+    "co2Emissionen": 967000
+  },
+  {
+    "id": 30,
+    "name": "River Retail GmbH",
+    "land": "Polen",
+    "branche": "Telekommunikation",
+    "mitarbeiter": 11382,
+    "jahresumsatz": 2224700000,
+    "co2Emissionen": 708000
+  },
+  {
+    "id": 31,
+    "name": "Aero Materials AG",
+    "land": "Finnland",
+    "branche": "Einzelhandel",
+    "mitarbeiter": 8559,
+    "jahresumsatz": 2796300000,
+    "co2Emissionen": 281000
+  },
+  {
+    "id": 32,
+    "name": "Peak Systems GmbH",
+    "land": "Deutschland",
+    "branche": "Chemie",
+    "mitarbeiter": 9718,
+    "jahresumsatz": 3696900000,
+    "co2Emissionen": 2510000
+  },
+  {
+    "id": 33,
+    "name": "Peak Solutions GmbH",
+    "land": "Polen",
+    "branche": "Industrie",
+    "mitarbeiter": 10419,
+    "jahresumsatz": 1259300000,
+    "co2Emissionen": 2118000
+  },
+  {
+    "id": 34,
+    "name": "Alpine Foods GmbH",
+    "land": "Schweden",
+    "branche": "Industrie",
+    "mitarbeiter": 3979,
+    "jahresumsatz": 939100000,
+    "co2Emissionen": 1369000
+  },
+  {
+    "id": 35,
+    "name": "Terra Engineering GmbH",
+    "land": "Spanien",
+    "branche": "Automobilzulieferung",
+    "mitarbeiter": 4061,
+    "jahresumsatz": 1372500000,
+    "co2Emissionen": 1168000
+  },
+  {
+    "id": 36,
+    "name": "Nova Industries AG",
+    "land": "Norwegen",
+    "branche": "Industrie",
+    "mitarbeiter": 7142,
+    "jahresumsatz": 1969400000,
+    "co2Emissionen": 1897000
+  },
+  {
+    "id": 37,
+    "name": "Helio Group AG",
+    "land": "Norwegen",
+    "branche": "Pharma",
+    "mitarbeiter": 10667,
+    "jahresumsatz": 1510400000,
+    "co2Emissionen": 541000
+  },
+  {
+    "id": 38,
+    "name": "Bright Holding AG",
+    "land": "Schweden",
+    "branche": "Logistik",
+    "mitarbeiter": 7430,
+    "jahresumsatz": 1214800000,
+    "co2Emissionen": 1202000
+  },
+  {
+    "id": 39,
+    "name": "Atlas Networks AG",
+    "land": "Irland",
+    "branche": "Logistik",
+    "mitarbeiter": 1315,
+    "jahresumsatz": 423900000,
+    "co2Emissionen": 299000
+  },
+  {
+    "id": 40,
+    "name": "Wave Industries AG",
+    "land": "Norwegen",
+    "branche": "Erneuerbare Energien",
+    "mitarbeiter": 8936,
+    "jahresumsatz": 873400000,
+    "co2Emissionen": 962000
+  },
+  {
+    "id": 41,
+    "name": "Bright Technologies GmbH",
+    "land": "Spanien",
+    "branche": "Maschinenbau",
+    "mitarbeiter": 7966,
+    "jahresumsatz": 1609600000,
+    "co2Emissionen": 1591000
+  },
+  {
+    "id": 42,
+    "name": "Solar Technologies GmbH",
+    "land": "Deutschland",
+    "branche": "Maschinenbau",
+    "mitarbeiter": 6476,
+    "jahresumsatz": 1483300000,
+    "co2Emissionen": 1353000
+  },
+  {
+    "id": 43,
+    "name": "Helio Energy AG",
+    "land": "Polen",
+    "branche": "Maschinenbau",
+    "mitarbeiter": 9185,
+    "jahresumsatz": 3170200000,
+    "co2Emissionen": 856000
+  },
+  {
+    "id": 44,
+    "name": "Horizon Holding AG",
+    "land": "Dänemark",
+    "branche": "Erneuerbare Energien",
+    "mitarbeiter": 8963,
+    "jahresumsatz": 1093100000,
+    "co2Emissionen": 817000
+  },
+  {
+    "id": 45,
+    "name": "Solar Group AG",
+    "land": "Spanien",
+    "branche": "Automobilzulieferung",
+    "mitarbeiter": 8318,
+    "jahresumsatz": 3064900000,
+    "co2Emissionen": 1203000
+  },
+  {
+    "id": 46,
+    "name": "Logi Systems GmbH",
+    "land": "Schweiz",
+    "branche": "Papierherstellung",
+    "mitarbeiter": 1202,
+    "jahresumsatz": 483200000,
+    "co2Emissionen": 164000
+  },
+  {
+    "id": 47,
+    "name": "Bright Services GmbH",
+    "land": "Finnland",
+    "branche": "Industrie",
+    "mitarbeiter": 9413,
+    "jahresumsatz": 2062300000,
+    "co2Emissionen": 2967000
+  },
+  {
+    "id": 48,
+    "name": "Alpine Textiles GmbH",
+    "land": "Italien",
+    "branche": "Industrie",
+    "mitarbeiter": 10850,
+    "jahresumsatz": 4296700000,
+    "co2Emissionen": 3373000
+  },
+  {
+    "id": 49,
+    "name": "Smart Logistics GmbH",
+    "land": "Norwegen",
+    "branche": "Logistik",
+    "mitarbeiter": 11814,
+    "jahresumsatz": 3009300000,
+    "co2Emissionen": 1543000
+  },
+  {
+    "id": 50,
+    "name": "Aero Works GmbH",
+    "land": "Norwegen",
+    "branche": "Pharma",
+    "mitarbeiter": 4995,
+    "jahresumsatz": 1646900000,
+    "co2Emissionen": 375000
+  },
+  {
+    "id": 51,
+    "name": "Eco Solutions GmbH",
+    "land": "Dänemark",
+    "branche": "Einzelhandel",
+    "mitarbeiter": 9304,
+    "jahresumsatz": 1325100000,
+    "co2Emissionen": 277000
+  },
+  {
+    "id": 52,
+    "name": "River Pharma AG",
+    "land": "Schweiz",
+    "branche": "Informationstechnologie",
+    "mitarbeiter": 5798,
+    "jahresumsatz": 730900000,
+    "co2Emissionen": 235000
+  },
+  {
+    "id": 53,
+    "name": "Pure Energy AG",
+    "land": "Tschechien",
+    "branche": "Automobilzulieferung",
+    "mitarbeiter": 10794,
+    "jahresumsatz": 3964800000,
+    "co2Emissionen": 1206000
+  },
+  {
+    "id": 54,
+    "name": "Wave Energy AG",
+    "land": "Norwegen",
+    "branche": "Metallverarbeitung",
+    "mitarbeiter": 1777,
+    "jahresumsatz": 285000000,
+    "co2Emissionen": 435000
+  },
+  {
+    "id": 55,
+    "name": "Global Logistics GmbH",
+    "land": "Dänemark",
+    "branche": "Informationstechnologie",
+    "mitarbeiter": 3530,
+    "jahresumsatz": 952300000,
+    "co2Emissionen": 55000
+  },
+  {
+    "id": 56,
+    "name": "Core Pharma AG",
+    "land": "Niederlande",
+    "branche": "Einzelhandel",
+    "mitarbeiter": 912,
+    "jahresumsatz": 126200000,
+    "co2Emissionen": 60000
+  },
+  {
+    "id": 57,
+    "name": "Atlas Group AG",
+    "land": "Belgien",
+    "branche": "Erneuerbare Energien",
+    "mitarbeiter": 2223,
+    "jahresumsatz": 505400000,
+    "co2Emissionen": 105000
+  },
+  {
+    "id": 58,
+    "name": "Donau Retail GmbH",
+    "land": "Italien",
+    "branche": "Textilproduktion",
+    "mitarbeiter": 9269,
+    "jahresumsatz": 881200000,
+    "co2Emissionen": 588000
+  },
+  {
+    "id": 59,
+    "name": "Global Retail GmbH",
+    "land": "Irland",
+    "branche": "Erneuerbare Energien",
+    "mitarbeiter": 6129,
+    "jahresumsatz": 2423400000,
+    "co2Emissionen": 468000
+  },
+  {
+    "id": 60,
+    "name": "Rhein Works GmbH",
+    "land": "Niederlande",
+    "branche": "Erneuerbare Energien",
+    "mitarbeiter": 6054,
+    "jahresumsatz": 671500000,
+    "co2Emissionen": 620000
+  },
+  {
+    "id": 61,
+    "name": "Urban Materials AG",
+    "land": "Schweden",
+    "branche": "Telekommunikation",
+    "mitarbeiter": 6738,
+    "jahresumsatz": 2799000000,
+    "co2Emissionen": 434000
+  },
+  {
+    "id": 62,
+    "name": "Vector Products GmbH",
+    "land": "Schweiz",
+    "branche": "Erneuerbare Energien",
+    "mitarbeiter": 5522,
+    "jahresumsatz": 1688900000,
+    "co2Emissionen": 526000
+  },
+  {
+    "id": 63,
+    "name": "Bright Logistics GmbH",
+    "land": "Tschechien",
+    "branche": "Lebensmittelproduktion",
+    "mitarbeiter": 11569,
+    "jahresumsatz": 1696900000,
+    "co2Emissionen": 1225000
+  },
+  {
+    "id": 64,
+    "name": "Alpine Chemicals GmbH",
+    "land": "Frankreich",
+    "branche": "Logistik",
+    "mitarbeiter": 7621,
+    "jahresumsatz": 2083000000,
+    "co2Emissionen": 1081000
+  },
+  {
+    "id": 65,
+    "name": "Peak Manufacturing GmbH",
+    "land": "Norwegen",
+    "branche": "Erneuerbare Energien",
+    "mitarbeiter": 3244,
+    "jahresumsatz": 969700000,
+    "co2Emissionen": 193000
+  },
+  {
+    "id": 66,
+    "name": "Eco Logistics GmbH",
+    "land": "Norwegen",
+    "branche": "Chemie",
+    "mitarbeiter": 8426,
+    "jahresumsatz": 2524000000,
+    "co2Emissionen": 3463000
+  },
+  {
+    "id": 67,
+    "name": "Pure Foods GmbH",
+    "land": "Österreich",
+    "branche": "Erneuerbare Energien",
+    "mitarbeiter": 4359,
+    "jahresumsatz": 800400000,
+    "co2Emissionen": 342000
+  },
+  {
+    "id": 68,
+    "name": "Core Group AG",
+    "land": "Dänemark",
+    "branche": "Industrie",
+    "mitarbeiter": 7199,
+    "jahresumsatz": 1952600000,
+    "co2Emissionen": 2614000
+  },
+  {
+    "id": 69,
+    "name": "Smart Products GmbH",
+    "land": "Schweden",
+    "branche": "Automobilzulieferung",
+    "mitarbeiter": 1974,
+    "jahresumsatz": 576300000,
+    "co2Emissionen": 608000
+  },
+  {
+    "id": 70,
+    "name": "Nova Logistics GmbH",
+    "land": "Polen",
+    "branche": "Erneuerbare Energien",
+    "mitarbeiter": 7224,
+    "jahresumsatz": 656600000,
+    "co2Emissionen": 535000
+  },
+  {
+    "id": 71,
+    "name": "Pure Holding AG",
+    "land": "Italien",
+    "branche": "Chemie",
+    "mitarbeiter": 1226,
+    "jahresumsatz": 322600000,
+    "co2Emissionen": 480000
+  },
+  {
+    "id": 72,
+    "name": "Future Energy AG",
+    "land": "Niederlande",
+    "branche": "Bauwirtschaft",
+    "mitarbeiter": 11006,
+    "jahresumsatz": 3347100000,
+    "co2Emissionen": 1819000
+  },
+  {
+    "id": 73,
+    "name": "Horizon Retail GmbH",
+    "land": "Frankreich",
+    "branche": "Lebensmittelproduktion",
+    "mitarbeiter": 6968,
+    "jahresumsatz": 2012200000,
+    "co2Emissionen": 984000
+  },
+  {
+    "id": 74,
+    "name": "Vector Textiles GmbH",
+    "land": "Niederlande",
+    "branche": "Automobilzulieferung",
+    "mitarbeiter": 6733,
+    "jahresumsatz": 2540200000,
+    "co2Emissionen": 1976000
+  },
+  {
+    "id": 75,
+    "name": "Clear Energy AG",
+    "land": "Italien",
+    "branche": "Logistik",
+    "mitarbeiter": 9582,
+    "jahresumsatz": 3910100000,
+    "co2Emissionen": 1929000
+  },
+  {
+    "id": 76,
+    "name": "Helio Networks AG",
+    "land": "Norwegen",
+    "branche": "Einzelhandel",
+    "mitarbeiter": 3581,
+    "jahresumsatz": 1282000000,
+    "co2Emissionen": 200000
+  },
+  {
+    "id": 77,
+    "name": "Prime Systems GmbH",
+    "land": "Schweden",
+    "branche": "Informationstechnologie",
+    "mitarbeiter": 10956,
+    "jahresumsatz": 4543100000,
+    "co2Emissionen": 224000
+  },
+  {
+    "id": 78,
+    "name": "Bright Energy AG",
+    "land": "Tschechien",
+    "branche": "Logistik",
+    "mitarbeiter": 3342,
+    "jahresumsatz": 559000000,
+    "co2Emissionen": 315000
+  },
+  {
+    "id": 79,
+    "name": "Bright Chemicals GmbH",
+    "land": "Irland",
+    "branche": "Automobilzulieferung",
+    "mitarbeiter": 1273,
+    "jahresumsatz": 418500000,
+    "co2Emissionen": 256000
+  },
+  {
+    "id": 80,
+    "name": "Stone Holding AG",
+    "land": "Polen",
+    "branche": "Textilproduktion",
+    "mitarbeiter": 6371,
+    "jahresumsatz": 2224700000,
+    "co2Emissionen": 624000
+  },
+  {
+    "id": 81,
+    "name": "Global Solutions GmbH",
+    "land": "Tschechien",
+    "branche": "Metallverarbeitung",
+    "mitarbeiter": 1826,
+    "jahresumsatz": 571400000,
+    "co2Emissionen": 420000
+  },
+  {
+    "id": 82,
+    "name": "Tech Networks AG",
+    "land": "Schweden",
+    "branche": "Erneuerbare Energien",
+    "mitarbeiter": 4162,
+    "jahresumsatz": 639400000,
+    "co2Emissionen": 288000
+  },
+  {
+    "id": 83,
+    "name": "Helio Pharma AG",
+    "land": "Dänemark",
+    "branche": "Bauwirtschaft",
+    "mitarbeiter": 5278,
+    "jahresumsatz": 1699700000,
+    "co2Emissionen": 1175000
+  },
+  {
+    "id": 84,
+    "name": "Logi Products GmbH",
+    "land": "Finnland",
+    "branche": "Papierherstellung",
+    "mitarbeiter": 9056,
+    "jahresumsatz": 2932200000,
+    "co2Emissionen": 3037000
+  },
+  {
+    "id": 85,
+    "name": "Medi Networks AG",
+    "land": "Tschechien",
+    "branche": "Informationstechnologie",
+    "mitarbeiter": 4130,
+    "jahresumsatz": 972200000,
+    "co2Emissionen": 150000
+  },
+  {
+    "id": 86,
+    "name": "Tech Chemicals GmbH",
+    "land": "Frankreich",
+    "branche": "Pharma",
+    "mitarbeiter": 4579,
+    "jahresumsatz": 1468100000,
+    "co2Emissionen": 240000
+  },
+  {
+    "id": 87,
+    "name": "Horizon Manufacturing GmbH",
+    "land": "Belgien",
+    "branche": "Informationstechnologie",
+    "mitarbeiter": 5318,
+    "jahresumsatz": 1984700000,
+    "co2Emissionen": 58000
+  },
+  {
+    "id": 88,
+    "name": "Global Manufacturing GmbH",
+    "land": "Polen",
+    "branche": "Maschinenbau",
+    "mitarbeiter": 2583,
+    "jahresumsatz": 522200000,
+    "co2Emissionen": 206000
+  },
+  {
+    "id": 89,
+    "name": "Baltic Foods GmbH",
+    "land": "Spanien",
+    "branche": "Bauwirtschaft",
+    "mitarbeiter": 6892,
+    "jahresumsatz": 845300000,
+    "co2Emissionen": 974000
+  },
+  {
+    "id": 90,
+    "name": "Baltic Services GmbH",
+    "land": "Tschechien",
+    "branche": "Metallverarbeitung",
+    "mitarbeiter": 9649,
+    "jahresumsatz": 967200000,
+    "co2Emissionen": 4189000
+  },
+  {
+    "id": 91,
+    "name": "Stone Services GmbH",
+    "land": "Deutschland",
+    "branche": "Einzelhandel",
+    "mitarbeiter": 5843,
+    "jahresumsatz": 1440600000,
+    "co2Emissionen": 432000
+  },
+  {
+    "id": 92,
+    "name": "Baltic Retail GmbH",
+    "land": "Polen",
+    "branche": "Textilproduktion",
+    "mitarbeiter": 9027,
+    "jahresumsatz": 3667500000,
+    "co2Emissionen": 1424000
+  },
+  {
+    "id": 93,
+    "name": "Food Manufacturing GmbH",
+    "land": "Italien",
+    "branche": "Informationstechnologie",
+    "mitarbeiter": 8036,
+    "jahresumsatz": 845500000,
+    "co2Emissionen": 180000
+  },
+  {
+    "id": 94,
+    "name": "Aero Technologies GmbH",
+    "land": "Spanien",
+    "branche": "Papierherstellung",
+    "mitarbeiter": 2171,
+    "jahresumsatz": 903700000,
+    "co2Emissionen": 539000
+  },
+  {
+    "id": 95,
+    "name": "Aero Engineering GmbH",
+    "land": "Norwegen",
+    "branche": "Automobilzulieferung",
+    "mitarbeiter": 524,
+    "jahresumsatz": 70200000,
+    "co2Emissionen": 132000
+  },
+  {
+    "id": 96,
+    "name": "Terra Networks AG",
+    "land": "Deutschland",
+    "branche": "Lebensmittelproduktion",
+    "mitarbeiter": 4342,
+    "jahresumsatz": 1253800000,
+    "co2Emissionen": 431000
+  },
+  {
+    "id": 97,
+    "name": "Helio Foods GmbH",
+    "land": "Tschechien",
+    "branche": "Chemie",
+    "mitarbeiter": 6291,
+    "jahresumsatz": 1484000000,
+    "co2Emissionen": 2741000
+  },
+  {
+    "id": 98,
+    "name": "Baltic Logistics GmbH",
+    "land": "Österreich",
+    "branche": "Papierherstellung",
+    "mitarbeiter": 7785,
+    "jahresumsatz": 779800000,
+    "co2Emissionen": 2334000
+  },
+  {
+    "id": 99,
+    "name": "Solar Materials AG",
+    "land": "Norwegen",
+    "branche": "Logistik",
+    "mitarbeiter": 1204,
+    "jahresumsatz": 133800000,
+    "co2Emissionen": 263000
+  },
+  {
+    "id": 100,
+    "name": "Nord Textiles GmbH",
+    "land": "Frankreich",
+    "branche": "Lebensmittelproduktion",
+    "mitarbeiter": 2148,
+    "jahresumsatz": 726600000,
+    "co2Emissionen": 301000
+  }
+]
