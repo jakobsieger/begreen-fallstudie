@@ -46,21 +46,24 @@
     </header>
     <main>
         <h2>Unternehmensübersicht</h2>
-        <table class="table table-striped">
-            <thead>
-                <tr>
-                    <th>Name</th>
-                    <th>Land</th>
-                    <th>Branche</th>
-                    <th>Mitarbeitende</th>
-                    <th>Jahresumsatz</th>
-                    <th>CO₂-Emissionen</th>
-                </tr>
-            </thead>
-            <tbody>
-                <!-- Inhalt aus JSON laden -->
-            </tbody>
-        </table>
+        <div class="table-responsive">
+            <table id="company-data-table" class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Land</th>
+                        <th>Branche</th>
+                        <th>Mitarbeitende</th>
+                        <th>Jahresumsatz</th>
+                        <th>CO₂-Emissionen</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Inhalt aus JSON laden -->
+                </tbody>
+            </table>
+        </div>
+
     </main>
     <footer class="fixed-bottom">
         <div class="row">
