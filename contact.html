@@ -37,10 +37,10 @@
                             <a class="nav-link" href="index.html">CO₂-Transparenz</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="about.html">Über uns</a>
+                            <a class="nav-link" aria-current="page" href="about.html">Über uns</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Kontakt</a>
+                            <a class="nav-link active" href="contact.html">Kontakt</a>
                         </li>
                     </ul>
                 </div>
@@ -52,6 +52,21 @@
             <div class="row">
                 <p class="display-4 text-center">Kontaktformular</p>
             </div>
+            <section class="container">
+                <form id="contact-form">
+                    <label for="name" class="form-label">Name</label><br>
+                    <input type="text" class="form-control" id="name" name="name" placeholder="Max Musterfrau"><br>
+                    <label for="mail" class="form-label">E-Mail-Adresse</label><br>
+                    <input type="mail" class="form-control" id="mail" name="mail" placeholder="meine@mail.com"><br>
+                    <label for="subject" class="form-label">Betreff</label><br>
+                    <input type="text" class="form-control" id="subject" name="subject"><br>
+                    <label for="message" class="form-label">Nachricht</label><br>
+                    <input type="text" class="form-control" id="message" name="message" placeholder="Beschreibung des Problems"><br>
+                    <label class="form-check-label" for="privacy_statement">Ich habe die Datenschutzbestimmungen gelesen und stimme ihnen zu.</label><br>
+                    <button type="submit" class="btn btn-primary my-3">Senden</button>
+                </form>
+                <p id="form-status" class="fw-semibold my-3" style="color: green;"></p>
+            </section>
         </div>
     </main>
     <footer class="" style="background-color: #D4E9D4;">
@@ -63,7 +78,7 @@
             <p class="col">Registergericht: Amtsgericht Berlin-Charlottenburg<br>HRB 123456 B<br>USt-ID: DE123456789</p>
         </div>
     </footer>
-    <script src="assets/js/main.js"></script>
+    <script src="assets/js/contact.js"></script>
 </body>
 
 </html>
