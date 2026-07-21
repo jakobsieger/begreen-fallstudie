@@ -3,8 +3,7 @@ initTable();
 
 async function initTable() {
     companyDataJson = await loadDataFromJson();
-    fillTable(companyDataJson);
-    sortTable("name", true);
+    fillTable(sortData(companyDataJson, "name", true));
 }
 
 async function loadDataFromJson() {
@@ -40,8 +39,8 @@ function fillTable(jsonData) {
     });
 }
 
-function sortTable(column, ascending = true) {
-    data = [...companyDataJson].sort(function(a, b) {
+function sortData(jsonData, column, ascending = true) {
+    data = [...jsonData].sort(function(a, b) {
         const valueA = a[column];
         const valueB = b[column];
 
@@ -50,5 +49,9 @@ function sortTable(column, ascending = true) {
         }
         return valueA - valueB;
     });
-    fillTable((ascending) ? data : data.reversed());
+    return (ascending) ? data : data.reversed();
+}
+
+function sortTable(column, ascending = true) {
+    fillTable(sortData(companyDataJson, column, ascending));
 }
