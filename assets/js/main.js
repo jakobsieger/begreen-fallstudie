@@ -1,9 +1,17 @@
 let companyDataJson = [];
+let sortState = {
+    column: "name",
+    ascending: true
+};
+
 initTable();
 
 async function initTable() {
     companyDataJson = await loadDataFromJson();
-    fillTable(sortData(companyDataJson, "name", true));
+    companyDataJson.sort(function (a, b) {
+        return a["name"].localeCompare(b["name"]);
+    });
+    fillTable(companyDataJson);
 }
 
 async function loadDataFromJson() {
@@ -39,7 +47,8 @@ function fillTable(jsonData) {
     });
 }
 
-function sortData(jsonData, column, ascending = true) {
+function sortData(jsonData, column) {
+    setSortDirection(column);
     data = [...jsonData].sort(function(a, b) {
         const valueA = a[column];
         const valueB = b[column];
@@ -49,9 +58,18 @@ function sortData(jsonData, column, ascending = true) {
         }
         return valueA - valueB;
     });
-    return (ascending) ? data : data.reversed();
+    return (sortState.ascending) ? data : data.reverse();
 }
 
-function sortTable(column, ascending = true) {
-    fillTable(sortData(companyDataJson, column, ascending));
+function sortTable(column) {
+    fillTable(sortData(companyDataJson, column));
+}
+
+function setSortDirection(column) {
+    if (sortState.column === column) {
+        sortState.ascending = !sortState.ascending;
+    } else {
+        sortState.column = column;
+        sortState.ascending = true;
+    }
 }
