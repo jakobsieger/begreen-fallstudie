@@ -4,6 +4,7 @@ initTable();
 async function initTable() {
     companyDataJson = await loadDataFromJson();
     fillTable(companyDataJson);
+    sortTable("name", true);
 }
 
 async function loadDataFromJson() {
@@ -37,4 +38,17 @@ function fillTable(jsonData) {
                 <td>${company.co2Emissionen.toLocaleString("de-DE")} t/Jahr</td>`;
         tableBody.appendChild(row);
     });
+}
+
+function sortTable(column, ascending = true) {
+    data = [...companyDataJson].sort(function(a, b) {
+        const valueA = a[column];
+        const valueB = b[column];
+
+        if (typeof valueA === "string") {
+            return valueA.localeCompare(valueB);
+        }
+        return valueA - valueB;
+    });
+    fillTable((ascending) ? data : data.reversed());
 }

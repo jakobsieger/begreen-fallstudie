@@ -61,12 +61,12 @@
                         <table class="table table-striped">
                             <thead>
                                 <tr>
-                                    <th>Name</th>
-                                    <th>Land</th>
-                                    <th>Branche</th>
-                                    <th>Mitarbeitende</th>
-                                    <th>Jahresumsatz</th>
-                                    <th>CO₂-Emissionen</th>
+                                    <th onclick="sortTable(`name`, true)">Name</th>
+                                    <th onclick="sortTable(`land`, true)">Land</th>
+                                    <th onclick="sortTable(`branche`, true)">Branche</th>
+                                    <th onclick="sortTable(`mitarbeiter`, true)">Mitarbeitende</th>
+                                    <th onclick="sortTable(`jahresumsatz`, true)">Jahresumsatz</th>
+                                    <th onclick="sortTable(`co2Emissionen`, true)">CO₂-Emissionen</th>
                                 </tr>
                             </thead>
                             <tbody id="companyDataTable">
