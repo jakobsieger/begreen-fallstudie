@@ -62,20 +62,56 @@
                         <table class="table table-striped">
                             <thead>
                                 <tr>
-                                    <th onclick="sortTable(`name`)" id="th-name">Name <i id="th-icon-name" class="sort-icon bi bi-caret-up"></i>
+                                    <th onclick="sortTable(`name`)" id="th-name">Name <i id="th-icon-name"
+                                            class="sort-icon bi bi-caret-up"></i>
                                     </th>
-                                    <th onclick="sortTable(`land`)" id="th-land">Land <i id="th-icon-land" class="sort-icon bi bi-caret-up"></i>
+                                    <th onclick="sortTable(`land`)" id="th-land">Land <i id="th-icon-land"
+                                            class="sort-icon bi bi-caret-up"></i>
                                     </th>
                                     <th onclick="sortTable(`branche`)" id="th-branche">Branche <i id="th-icon-branche"
                                             class="sort-icon bi bi-caret-up"></i></th>
-                                    <th onclick="sortTable(`mitarbeiter`)" id="th-mitarbeiter">Mitarbeitende <i id="th-icon-mitarbeiter"
-                                            class="sort-icon bi bi-caret-up"></i>
+                                    <th onclick="sortTable(`mitarbeiter`)" id="th-mitarbeiter">Mitarbeitende <i
+                                            id="th-icon-mitarbeiter" class="sort-icon bi bi-caret-up"></i>
                                     </th>
-                                    <th onclick="sortTable(`jahresumsatz`)" id="th-jahresumsatz">Jahresumsatz <i id="th-icon-jahresumsatz"
-                                            class="sort-icon bi bi-caret-up"></i>
+                                    <th onclick="sortTable(`jahresumsatz`)" id="th-jahresumsatz">Jahresumsatz <i
+                                            id="th-icon-jahresumsatz" class="sort-icon bi bi-caret-up"></i>
                                     </th>
                                     <th onclick="sortTable(`co2Emissionen`)" id="th-co2Emissionen">CO₂-Emissionen
                                         <i id="th-icon-co2Emissionen" class="sort-icon bi bi-caret-up"></i>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th><input id="filter-name" class="form-control" type="search"
+                                            placeholder="Name suchen"></th>
+                                    <th><select id="filter-land" class="form-select">
+                                            <option value="">Alle Länder</option>
+                                        </select></th>
+                                    <th><select id="filter-branche" class="form-select">
+                                            <option value="">Alle Branchen</option>
+                                        </select></th>
+                                    <th>
+                                        <div class="d-flex gap-1">
+                                            <input id="filter-mitarbeiter-min" class="form-control" type="number"
+                                                min="0" placeholder="Von">
+                                            <input id="filter-mitarbeiter-max" class="form-control" type="number"
+                                                min="0" placeholder="Bis">
+                                        </div>
+                                    </th>
+                                    <th>
+                                        <div class="d-flex gap-1">
+                                            <input id="filter-jahresumsatz-min" class="form-control" type="number"
+                                                min="0" placeholder="Von">
+                                            <input id="filter-jahresumsatz-max" class="form-control" type="number"
+                                                min="0" placeholder="Bis">
+                                        </div>
+                                    </th>
+                                    <th>
+                                        <div class="d-flex gap-1">
+                                            <input id="filter-co2Emissionen-min" class="form-control" type="number"
+                                                min="0" placeholder="Von">
+                                            <input id="filter-co2Emissionen-max" class="form-control" type="number"
+                                                min="0" placeholder="Bis">
+                                        </div>
                                     </th>
                                 </tr>
                             </thead>
