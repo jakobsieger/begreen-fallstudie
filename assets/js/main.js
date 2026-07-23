@@ -33,7 +33,7 @@ function fillTable(jsonData) {
     tableBody.innerHTML = "";
 
     if (jsonData.length == 0) {
-        ableBody.innerHTML = "tried to fill table with empty data"
+        tableBody.innerHTML = "filled table with empty data"
     }
 
     jsonData.forEach(company => {
@@ -46,6 +46,11 @@ function fillTable(jsonData) {
                 <td>${company.co2Emissionen.toLocaleString("de-DE")} t/Jahr</td>`;
         tableBody.appendChild(row);
     });
+}
+
+function sortTable(column) {
+    fillTable(sortData(companyDataJson, column));
+    updateSortIcons();
 }
 
 function sortData(jsonData, column) {
@@ -62,11 +67,6 @@ function sortData(jsonData, column) {
     return (sortState.ascending) ? data : data.reverse();
 }
 
-function sortTable(column) {
-    fillTable(sortData(companyDataJson, column));
-    updateSortIcons();
-}
-
 function setSortDirection(column) {
     if (sortState.column === column) {
         sortState.ascending = !sortState.ascending;
@@ -81,7 +81,6 @@ function updateSortIcons() {
         icon.classList.remove("bi-caret-up", "bi-caret-up-fill", "bi-caret-down-fill");
         icon.classList.add("bi-caret-up");
     });
-
     const activeIcon = document.getElementById(`th-icon-${sortState.column}`);
 
     if (!activeIcon) return;
