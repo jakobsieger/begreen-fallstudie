@@ -110,7 +110,7 @@ function applyFilters() {
 
         return matchesName && matchesCountry && matchesIndustry && matchesEmployees && matchesRevenue & matchesEmissions;
     });
-    fillTable(filteredCompanies);
+    fillTable(sortData(filteredCompanies));
 }
 
 function getNumberFromFilter(id) {
@@ -129,8 +129,17 @@ function sortTable(column) {
     updateSortIcons();
 }
 
-function sortData(jsonData, column) {
-    setSortDirection(column);
+function sortData(jsonData, sortColumn) {
+
+    let column;
+
+    if (!sortColumn) {
+        column = sortState.column
+    } else {
+        column = sortColumn;
+        setSortDirection(column);
+    }
+    
     data = [...jsonData].sort(function (a, b) {
         const valueA = a[column];
         const valueB = b[column];
