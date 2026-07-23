@@ -12,6 +12,7 @@ async function initTable() {
         return a["name"].localeCompare(b["name"]);
     });
     fillTable(companyDataJson);
+    updateSortIcons();
 }
 
 async function loadDataFromJson() {
@@ -63,6 +64,7 @@ function sortData(jsonData, column) {
 
 function sortTable(column) {
     fillTable(sortData(companyDataJson, column));
+    updateSortIcons();
 }
 
 function setSortDirection(column) {
@@ -72,4 +74,18 @@ function setSortDirection(column) {
         sortState.column = column;
         sortState.ascending = true;
     }
+}
+
+function updateSortIcons() {
+    document.querySelectorAll(".sort-icon").forEach(function(icon) {
+        icon.classList.remove("bi-caret-up", "bi-caret-up-fill", "bi-caret-down-fill");
+        icon.classList.add("bi-caret-up");
+    });
+
+    const activeIcon = document.getElementById(`th-icon-${sortState.column}`);
+
+    if (!activeIcon) return;
+
+    activeIcon.classList.remove("bi-caret-up");
+    activeIcon.classList.add(sortState.ascending ? "bi-caret-up-fill" : "bi-caret-down-fill");
 }

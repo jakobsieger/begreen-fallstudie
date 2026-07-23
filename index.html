@@ -9,6 +9,7 @@
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.rtl.min.css"
         integrity="sha384-CfCrinSRH2IR6a4e6fy2q6ioOX7O6Mtm1L9vRvFZ1trBncWmMePhzvafv7oIcWiW" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
 </head>
 
 <body class="d-flex flex-column min-vh-100">
@@ -61,12 +62,21 @@
                         <table class="table table-striped">
                             <thead>
                                 <tr>
-                                    <th onclick="sortTable(`name`)">Name</th>
-                                    <th onclick="sortTable(`land`)">Land</th>
-                                    <th onclick="sortTable(`branche`)">Branche</th>
-                                    <th onclick="sortTable(`mitarbeiter`)">Mitarbeitende</th>
-                                    <th onclick="sortTable(`jahresumsatz`)">Jahresumsatz</th>
-                                    <th onclick="sortTable(`co2Emissionen`)">CO₂-Emissionen</th>
+                                    <th onclick="sortTable(`name`)" id="th-name">Name <i id="th-icon-name" class="sort-icon bi bi-caret-up"></i>
+                                    </th>
+                                    <th onclick="sortTable(`land`)" id="th-land">Land <i id="th-icon-land" class="sort-icon bi bi-caret-up"></i>
+                                    </th>
+                                    <th onclick="sortTable(`branche`)" id="th-branche">Branche <i id="th-icon-branche"
+                                            class="sort-icon bi bi-caret-up"></i></th>
+                                    <th onclick="sortTable(`mitarbeiter`)" id="th-mitarbeiter">Mitarbeitende <i id="th-icon-mitarbeiter"
+                                            class="sort-icon bi bi-caret-up"></i>
+                                    </th>
+                                    <th onclick="sortTable(`jahresumsatz`)" id="th-jahresumsatz">Jahresumsatz <i id="th-icon-jahresumsatz"
+                                            class="sort-icon bi bi-caret-up"></i>
+                                    </th>
+                                    <th onclick="sortTable(`co2Emissionen`)" id="th-co2Emissionen">CO₂-Emissionen
+                                        <i id="th-icon-co2Emissionen" class="sort-icon bi bi-caret-up"></i>
+                                    </th>
                                 </tr>
                             </thead>
                             <tbody id="companyDataTable">
@@ -81,10 +91,12 @@
     <footer class="footer mt-auto">
         <div class="row px-5 py-3 mt-2" style="background-color: #D4E9D4;">
             <p class="col-12 col-md-6 col-lg">&copy; 2026 beGreen</p>
-            <p class="col-12 col-md-6 col-lg">beGreen gGmbH<br>Jonas Berger (Geschäftsführung)<br>Musterstraße 12<br>10115
+            <p class="col-12 col-md-6 col-lg">beGreen gGmbH<br>Jonas Berger (Geschäftsführung)<br>Musterstraße
+                12<br>10115
                 Berlin<br>Deutschland</p>
             <p class="col-12 col-md-6 col-lg">Telefon: +49 30 12345678<br>E-Mail: info@begreen.de</p>
-            <p class="col-12 col-md-6 col-lg">Registergericht: Amtsgericht Berlin-Charlottenburg<br>HRB 123456 B<br>USt-ID: DE123456789</p>
+            <p class="col-12 col-md-6 col-lg">Registergericht: Amtsgericht Berlin-Charlottenburg<br>HRB 123456
+                B<br>USt-ID: DE123456789</p>
         </div>
     </footer>
     <script src="assets/js/main.js"></script>
